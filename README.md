@@ -4,10 +4,10 @@
 August 27, 2021
 
 ### Project Title
-Bikeshare
+Bikeshare Data Interface
 
 ### Description
-The project allows the user to select and view bikeshare data fromm three US cities.
+The project allows the user to select, filter, and view bikeshare data from three US cities.
 
 ### Files used
 bikeshare.py, chicago.csv, newyorkcity.csv, washington.csv
