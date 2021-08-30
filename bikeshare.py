@@ -86,6 +86,7 @@ def load_data(city, month, day):
     # Ask user if they would like to see raw data.
     row = 0
     while True:
+        # initial prompt
         if row == 0:
             response = input('\nWould you like to see 5 lines of raw data? Please select yes or no:\n').lower()
             if response == 'yes':
@@ -95,6 +96,7 @@ def load_data(city, month, day):
                 break
             else:
                 print('\nERROR: The input and/or format you provided is invalid.\n')
+        # later prompts
         elif row > 0 and row <= len(df.index):
             response = input('\nWould you like to see 5 more lines of raw data? Please select yes or no:\n').lower()
             if response == 'yes':
